@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'BMJUA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMJUA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    font-family:BMJUA;
+    word-break: keep-all;
+}
+
+
+#container{
+}
+#profile{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    transform: translate(-50%, -50%);
+    z-index:1;
+}
+#title{
+    position: absolute;
+    top: 7%;
+    left: 30%;
+    font-size: 400%;
+    z-index:2;
+    line-height:95%; 
+}
+
+#check{
+    position: absolute;
+    top: 100%;
+    font-size: 130%;
+    z-index:2;
+    line-height:100%; 
+}
+
+
+.wrapper {
+    position: absolute;
+    width: 60%;
+    max-width: 700px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} 
+
+.wrapper:before {
+    content: "";
+    display: block;
+    padding-top: 100%;
+} 
+
+.circle { 
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background-color: #ff369b;
+}
