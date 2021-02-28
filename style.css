@@ -10,8 +10,6 @@ body{
 }
 
 
-#container{
-}
 #profile{
     position: absolute;
     top: 50%;
@@ -22,11 +20,13 @@ body{
 }
 #title{
     position: absolute;
-    top: 7%;
-    left: 30%;
+    top: 20%;
+    left: 20%;
     font-size: 400%;
     z-index:2;
     line-height:95%; 
+    
+    transform: translate(-50%, -50%);
 }
 
 #check{
