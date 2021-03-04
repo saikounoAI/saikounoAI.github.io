@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: 'BMJUA';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMJUA.woff') format('woff');
@@ -15,6 +16,7 @@ width: 100%;
 height: 100%;
 margin: 0;
 display: flex;
+font-family:BMJUA;
 justify-content: center;
     align-items: center;
 word-break: keep-all;
