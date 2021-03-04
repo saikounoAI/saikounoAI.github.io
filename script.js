@@ -9,5 +9,9 @@ function isMobile() {
         var circle=document.getElementsByClassName("circle");
         var check=document.getElementsById("check");
 
-        wrapper.style.width="80%";
+        wrapper.style.width="90%";
+        title.style.fontSize="150px";
+        profile.style.width="90%";
+        title.style.fontSize="72px";
+        
   }
