@@ -71,3 +71,21 @@ p{
     margin-bottom: -5%;
 }
 
+@media screen and (max-width: 768px) {
+    
+.wrapper {
+    width: 80%;
+} 
+
+#title{
+    font-size: 3.5em;
+}
+
+
+#check{
+    font-size: 1.7em;
+}
+
+
+}
+
