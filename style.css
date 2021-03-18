@@ -29,7 +29,6 @@ margin: -100px;
 padding: 25px;
 box-sizing: border-box;
 display: flex;
-margin-left: -150px;
 }
 
 #title {
@@ -43,7 +42,7 @@ margin-bottom:-5%;
 #title > p {
 line-height: 95%;
 font-size: 50px;
-padding-left:39px;
+padding-left:30px;
 
 }
 
@@ -76,6 +75,6 @@ z-index: -5;
 }
 
 #text > p {
-font-size: 25px;
+font-size: 23px;
 line-height: 100%;
 }
